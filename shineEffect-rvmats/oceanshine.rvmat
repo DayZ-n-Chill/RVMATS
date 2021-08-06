@@ -1,0 +1,4 @@
+Ambient[]={0,1,1,1};
+Diffuse[]={1,1,0,1};
+specular[]={0.1,0,1,0};
+specularPower=20;

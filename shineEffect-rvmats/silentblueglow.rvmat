@@ -1,0 +1,3 @@
+emmisive[] = {100, 500, 1000, 1};
+specular[]={0.1,0,1,0};
+specularPower=20;

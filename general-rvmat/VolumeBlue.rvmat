@@ -1,0 +1,14 @@
+#define _ARMA_
+class StageTI
+{
+	texture = "a3\data_f\default_vehicle_ti_ca.paa";
+};
+ambient[] = {0,0,0.3,1};
+diffuse[] = {0,0,0.3,1};
+forcedDiffuse[] = {0,0,0,0};
+emmisive[] = {41500,60500,730000,1};
+specular[] = {0,0,0,1};
+specularPower = 200;
+PixelShaderID = "Normal";
+VertexShaderID = "Basic";
+

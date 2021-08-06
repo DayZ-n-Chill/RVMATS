@@ -1,0 +1,94 @@
+
+ambient[] = {0.027,0.027,0.027,1.0};
+diffuse[] = {0.1,0.1,0.1,1.0};
+forcedDiffuse[] = {0.0,0.0,0.0,0.0};
+emmisive[] = {0.0,0.0,0.0,1.0};
+specular[] = {1.9,1.9,1.9,1.9};
+specularPower = 100.0;
+PixelShaderID = "Super";
+VertexShaderID = "Super";
+class Stage1
+{
+ texture = "#(argb,8,8,3)color(0.5,0.5,1,1,NOHQ)";
+ uvSource = "tex";
+ class uvTransform
+ {
+  aside[] = {1.0,0.0,0.0};
+  up[] = {0.0,1.0,0.0};
+  dir[] = {0.0,0.0,0.0};
+  pos[] = {0.0,0.0,0.0};
+ };
+};
+class Stage2
+{
+ texture = "#(argb,8,8,3)color(0.5,0.5,0.5,1,DT)";
+ uvSource = "tex";
+ class uvTransform
+ {
+  aside[] = {1.0,0.0,0.0};
+  up[] = {0.0,1.0,0.0};
+  dir[] = {0.0,0.0,0.0};
+  pos[] = {0.0,0.0,0.0};
+ };
+};
+class Stage3
+{
+ texture = "#(argb,8,8,3)color(0,0,0,0,MC)";
+ uvSource = "tex";
+ class uvTransform
+ {
+  aside[] = {1.0,0.0,0.0};
+  up[] = {0.0,1.0,0.0};
+  dir[] = {0.0,0.0,0.0};
+  pos[] = {0.0,0.0,0.0};
+ };
+};
+class Stage4
+{
+ texture = "#(argb,8,8,3)color(1,1,1,1,AS)";
+ uvSource = "tex";
+ class uvTransform
+ {
+  aside[] = {1.0,0.0,0.0};
+  up[] = {0.0,1.0,0.0};
+  dir[] = {0.0,0.0,0.0};
+  pos[] = {0.0,0.0,0.0};
+ };
+};
+class Stage5
+{
+ texture = "#(argb,8,8,3)color(1,1,1,1,SMDI)";
+ uvSource = "tex";
+ class uvTransform
+ {
+  aside[] = {1.0,0.0,0.0};
+  up[] = {0.0,1.0,0.0};
+  dir[] = {0.0,0.0,0.0};
+  pos[] = {0.0,0.0,0.0};
+ };
+};
+class Stage6
+{
+ texture = "#(argb,8,8,3)color(1,1,1,1,CO)";
+ uvSource = "tex";
+ class uvTransform
+ {
+  aside[] = {1.0,0.0,0.0};
+  up[] = {0.0,1.0,0.0};
+  dir[] = {0.0,0.0,0.0};
+  pos[] = {0.0,0.0,0.0};
+ };
+};
+class Stage7
+{
+ texture = "AmmunitionExpansion\12.7x99\GAUSS\env_land_ca.paa";
+ uvSource = "tex";
+ class uvTransform
+ {
+  aside[] = {1.0,0.0,0.0};
+  up[] = {0.0,1.0,0.0};
+  dir[] = {0.0,0.0,0.0};
+  pos[] = {0.0,0.0,0.0};
+ };
+};
+//};
